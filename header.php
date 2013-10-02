@@ -39,7 +39,9 @@
 			</a>
 			<hgroup>
 				<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><h1 class="site-title"><?php bloginfo( 'name' ); ?></h1></a>
-				<a href="http://twitter.com/laurentgoudet" title-"Follow me on Twitter" target="_blank">hello<i class="icon-twitter"></i></a>
+				<a href="http://twitter.com/laurentgoudet" title-"Twitter" target="_blank"><i class="icon-twitter"></i></a>
+		        <a href="http://plus.google.com/105939752959745163204" title="Google Plus"><i class="icon-gplus" target="_blank"></i></a>
+		        <a href="http://github.com/laurentgoudet" title="GitHub" target="_blank"><i class="icon-github"></i></a>
 			</hgroup>
 				
 			<div id="navbar" class="navbar">
