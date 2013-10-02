@@ -147,6 +147,7 @@ hgroup {
 .site-title {
 	font-size: 40px;
 	padding: 0;
+	padding-bottom: 5px;
 }
 
 
@@ -162,14 +163,15 @@ hgroup {
 
 ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover {
-	background-color: #30b7e6;
+	background-color: #f9f9f9;
+	color: #258aaf;
 }
 
 .nav-menu .current_page_item > a,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #0099cc;
+	color: #33b5e5;
 }
 
 .navbar {
@@ -502,12 +504,12 @@ ul.nav-menu ul a:hover,
  */
 
 .site-footer {
-	background-color: #33b5e5;
+	background-color: #e6e6e6;
 	color: #666666;
 }
 
 .site-footer a {
-	color: #666666;
+	color: #757575;
 }
 
 .site-footer .widget a {
@@ -588,3 +590,40 @@ ul.nav-menu ul a:hover,
 .icon-twitter:before { content: '\e804'; } /* '' */
 .icon-github:before { content: '\e801'; } /* '' */
 .icon-github-circled:before { content: '\e802'; } /* '' */
+
+
+/**
+ * 10.0 Plugins
+ * ----------------------------------------------------------------------------
+ */
+
+#infinite-handle {
+	background-color: #f9f9f9;
+}
+
+#infinite-handle span {
+	background: #09c;
+	background: -webkit-linear-gradient(top,#2faddb 0,#09c 100%);
+	background: linear-gradient(top,#2faddb 0,#09c 100%);
+	border-bottom: 3px solid #0079A2;
+}
+
+#infinite-handle span:hover {
+	background: #35BAEB;
+/* Old browsers */
+	background: -webkit-linear-gradient(top,#35BAEB 0%,#00ABE4 100%);
+/* Chrome 10+, Safari 5.1+ */
+	background: linear-gradient(to bottom,#35BAEB 0%,#00ABE4 100%);
+/* W3C */
+	outline: none;
+}
+
+#infinite-handle span:active {
+	background: #09c;
+/* Old browsers */
+	background: -webkit-linear-gradient(top,#09c 0%,#2faddb 100%);
+/* Chrome 10+, Safari 5.1+ */
+	background: linear-gradient(to bottom,#09c 0%,#2faddb 100%);
+/* W3C */
+	border-top: 3px solid #0079A2;
+}
