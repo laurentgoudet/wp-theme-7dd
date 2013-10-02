@@ -131,13 +131,14 @@ input[type="reset"]:active {
 
 hgroup {
    position: absolute;
-   top: 50px;
+   top: 70px;
    left: 240px;
 }
 
 .site-header .home-link {
 	color: #141412;
 	display: inline;
+	padding: 0;
 }
 
 .site-header .site-title:hover {
